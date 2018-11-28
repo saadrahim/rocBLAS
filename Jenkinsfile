@@ -194,6 +194,7 @@ def docker_build_inside_image( def build_image, compiler_data compiler_args, doc
           set -x
           cd ${paths.project_build_prefix}
           ${paths.build_command}
+	  git status
         """
     }
 

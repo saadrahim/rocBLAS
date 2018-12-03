@@ -9,9 +9,6 @@ macro(rocm_set_parent VAR)
   set(${VAR} ${ARGN})
 endmacro()
 
-
-
-
 function(rocm_get_git_commit_id OUTPUT_VERSION)
   set(options)
   set(oneValueArgs VERSION DIRECTORY)
@@ -51,5 +48,4 @@ function(rocm_get_git_commit_id OUTPUT_VERSION)
     endif()
   endif()
   rocm_set_parent(${OUTPUT_VERSION} ${_version})
-
 endfunction()

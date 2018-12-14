@@ -9,6 +9,10 @@ programming language and optimized for AMD's GPUs.
 |**ROCm**     | **R**adeon **O**pen **C**ompute platfor**m**                |
 |**HIP**      | **H**eterogeneous-Compute **I**nterface for **P**ortability |
 
+## Documentation
+The latest rocBLAS documentation and API description can be found [here](https://rocblas.readthedocs.io/en/latest/).
+
+
 ## Prerequisites
 * A ROCm enabled platform, more information at [https://rocm.github.io/install.html](https://rocm.github.io/install.html).
 * Base software stack, which includes

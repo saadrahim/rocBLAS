@@ -37,7 +37,8 @@ def runCI =
     {
         platform, project->
 
-        def gfilter = "*nightly*"
+        // Full rocBLAS testsuite
+        def gfilter = "*nightly*:*quick*:*pre_checkin*"
         commonGroovy.runTestCommand(platform, project, gfilter)
     }
 
